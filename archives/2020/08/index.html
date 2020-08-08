@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://kyanchen.github.io">
-  <title>Archives: 2020/8 | CC</title>
+  <title>Archives: 2020/8 | CChen</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <meta property="og:type" content="website">
-<meta property="og:title" content="CC">
+<meta property="og:title" content="CChen">
 <meta property="og:url" content="http://kyanchen.github.io/archives/2020/08/index.html">
-<meta property="og:site_name" content="CC">
+<meta property="og:site_name" content="CChen">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="CC">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="CC" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="CChen" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -97,7 +97,7 @@
 				
 					<a class="weixin" href="/img/wechat.jpeg" title="wechat" target="_blank"><i class="icon-weixin"></i></a>
 				
-					<a class="mail" href="/kiancchen@gmail.com" title="NULL" target="_blank"><i class="icon-mail"></i></a>
+					<a class="mail" href="mailto:kiancchen@gmail.com" title="NULL" target="_blank"><i class="icon-mail"></i></a>
 				
 			</div>
 		
@@ -146,7 +146,7 @@
 			        
 						<a class="weixin" target="_blank" href="/img/wechat.jpeg" title="wechat"><i class="icon-weixin"></i></a>
 			        
-						<a class="mail" target="_blank" href="/kiancchen@gmail.com" title="NULL"><i class="icon-mail"></i></a>
+						<a class="mail" target="_blank" href="mailto:kiancchen@gmail.com" title="NULL"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
@@ -310,23 +310,6 @@
 
 
 <!--  -->
-
-<script>
-  /* 标签页标题切换 */
-  var originTitle = document.title;
-  var titleTime;
-  document.addEventListener("visibilitychange", function () {
-    if (document.hidden) {
-      document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
-      clearTimeout(titleTime);
-    } else {
-      document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
-      titleTime = setTimeout(function () {
-        document.title = originTitle;
-      }, 2000);
-    }
-  });
-</script>
 
 
     
@@ -561,6 +544,16 @@
   <!-- <script async type="text/javascript" size="90" alpha="0.2" zIndex="0" src="/plugins/ribbon.js/ribbon.min.js"></script> -->
   
   
+  
+  <script type="text/javascript" src="/lib/snow.js"></script>
+  <script type="text/javascript" src="/lib/jquery-2.1.4.min.js"></script>
+  <script>
+    snow.down();
+    $(window).resize(function() {
+      $("canvas").css("z-index","500").remove();
+      snow.down();
+    });
+  </script>
   
 </body>
 
