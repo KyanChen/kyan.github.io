@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://kiancchen.github.io">
-  <title>test_my_site | Kian CC</title>
+  <title>如何用 GitHub + Hexo + yilia-plus 搭建本站 | Kian CC</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="Kian CC">
+  <meta name="description" content="本章的服务器依赖于 GitHub，框架使用的是 Hexo，主题使用的是 hexo-theme-yilia-plus，下面将介绍怎么用这三个搭建一个网站： 创建 Github Page Repo首先到 GitHub 创建一个新的 repo，命名为 username.github.io，然后进入那个 repo 的 Setting 下滑找到 GitHub Pages 将此 repo 设为 GitHub">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test_my_site">
-<meta property="og:url" content="http://kiancchen.github.io/2020/08/08/test-my-site/index.html">
+<meta property="og:title" content="如何用 GitHub + Hexo + yilia-plus 搭建本站">
+<meta property="og:url" content="http://kiancchen.github.io/2020/09/02/How-to-build-this-site/index.html">
 <meta property="og:site_name" content="Kian CC">
-<meta property="og:description" content="Kian CC">
+<meta property="og:description" content="本章的服务器依赖于 GitHub，框架使用的是 Hexo，主题使用的是 hexo-theme-yilia-plus，下面将介绍怎么用这三个搭建一个网站： 创建 Github Page Repo首先到 GitHub 创建一个新的 repo，命名为 username.github.io，然后进入那个 repo 的 Setting 下滑找到 GitHub Pages 将此 repo 设为 GitHub">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-08T15:36:23.000Z">
-<meta property="article:modified_time" content="2020-08-08T15:36:23.365Z">
+<meta property="article:published_time" content="2020-09-02T15:12:41.000Z">
+<meta property="article:modified_time" content="2020-09-02T16:01:28.872Z">
 <meta property="article:author" content="Kian CC">
 <meta name="twitter:card" content="summary">
   
@@ -171,22 +171,22 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-test-my-site" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-How-to-build-this-site" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
     <h1 class="article-title" itemprop="name">
-      test_my_site
+      如何用 GitHub + Hexo + yilia-plus 搭建本站
     </h1>
   
 
 
   
   
-<a href="/2020/08/08/test-my-site/" class="archive-article-date">
-        <time datetime="2020-08-08T15:36:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-08</time>
+<a href="/2020/09/02/How-to-build-this-site/" class="archive-article-date">
+        <time datetime="2020-09-02T15:12:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-02</time>
 </a>
 
   
@@ -199,7 +199,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">0字</span>
+      <span class="post-count">1.3k字</span>
     </span>
   </span>
 
@@ -208,7 +208,7 @@
     <span class="post-meta-item-icon">
       <i class="icon-book icon"></i>
       <span class="post-meta-item-text"> 阅读时长≈</span>
-      <span class="post-count">1分</span>
+      <span class="post-count">5分</span>
     </span>
   </span>
 </div>
@@ -219,41 +219,90 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    
-    
+    <p>本章的服务器依赖于 <a target="_blank" rel="noopener" href="https://github.com/">GitHub</a>，框架使用的是 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a>，主题使用的是 <a target="_blank" rel="noopener" href="https://github.com/JoeyBling/hexo-theme-yilia-plus">hexo-theme-yilia-plus</a>，下面将介绍怎么用这三个搭建一个网站：</p>
+<h2 id="创建-Github-Page-Repo"><a href="#创建-Github-Page-Repo" class="headerlink" title="创建 Github Page Repo"></a>创建 Github Page Repo</h2><p>首先到 GitHub 创建一个新的 repo，命名为 <em>username.github.io</em>，然后进入那个 repo 的 Setting 下滑找到 GitHub Pages 将此 repo 设为 GitHub Page。之后这个 repo 就将作为你网站的服务器。</p>
+<h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>可以参考 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">官网文档</a>，本文会介绍一下 Mac 版的简略版安装。</p>
+<a id="more"></a>
+
+<h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><p>应该大部分人都安装好了，这里就不介绍了。</p>
+<p>怎么连接到 GitHub 也不介绍了，网上教程一大堆。</p>
+<h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p>没有 Homebrew 的要先安装 Homebrew。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ /bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>在国内的同学可能需要先开一下网络代理(请确保你的终端也成功代理上了)。</p>
+<p>然后安装 Node.js <code>brew install node</code>。</p>
+<h3 id="安装-Hexo-1"><a href="#安装-Hexo-1" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>输入命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>安装以后，可以使用以下两种方式执行 Hexo：</p>
+<ol>
+<li><code>npx hexo &lt;command&gt;</code></li>
+<li>将 Hexo 所在的目录下的 <code>node_modules</code> 添加到环境变量之中即可直接使用 <code>hexo &lt;command&gt;</code>：</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">echo</span> <span class="string">&#x27;PATH=&quot;$PATH:./node_modules/.bin&quot;&#x27;</span> &gt;&gt; ~/.bash_profile</span><br></pre></td></tr></table></figure>
+
+<h2 id="建站"><a href="#建站" class="headerlink" title="建站"></a>建站</h2><p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+
+<p>新建完成后，指定文件夹的目录如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
+
+<h3 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h3><p>网站的 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration">配置</a> 信息，您可以在此配置大部分的参数。</p>
+<h3 id="package-json"><a href="#package-json" class="headerlink" title="package.json"></a>package.json</h3><p>应用程序的信息。<a target="_blank" rel="noopener" href="https://ejs.co/">EJS</a>, <a target="_blank" rel="noopener" href="http://learnboost.github.io/stylus/">Stylus</a> 和 <a target="_blank" rel="noopener" href="http://daringfireball.net/projects/markdown/">Markdown</a> renderer 已默认安装，您可以自由移除。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">package.json&#123;</span><br><span class="line">  &quot;name&quot;: &quot;hexo-site&quot;,</span><br><span class="line">  &quot;version&quot;: &quot;0.0.0&quot;,</span><br><span class="line">  &quot;private&quot;: true,</span><br><span class="line">  &quot;hexo&quot;: &#123;</span><br><span class="line">    &quot;version&quot;: &quot;&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;dependencies&quot;: &#123;</span><br><span class="line">    &quot;hexo&quot;: &quot;^3.8.0&quot;,</span><br><span class="line">    &quot;hexo-generator-archive&quot;: &quot;^0.1.5&quot;,</span><br><span class="line">    &quot;hexo-generator-category&quot;: &quot;^0.1.3&quot;,</span><br><span class="line">    &quot;hexo-generator-index&quot;: &quot;^0.2.1&quot;,</span><br><span class="line">    &quot;hexo-generator-tag&quot;: &quot;^0.2.0&quot;,</span><br><span class="line">    &quot;hexo-renderer-ejs&quot;: &quot;^0.3.1&quot;,</span><br><span class="line">    &quot;hexo-renderer-stylus&quot;: &quot;^0.3.3&quot;,</span><br><span class="line">    &quot;hexo-renderer-marked&quot;: &quot;^0.3.2&quot;,</span><br><span class="line">    &quot;hexo-server&quot;: &quot;^0.3.3&quot;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="scaffolds"><a href="#scaffolds" class="headerlink" title="scaffolds"></a>scaffolds</h3><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/writing">模版</a> 文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。</p>
+<p>Hexo的模板是指在新建的文章文件中默认填充的内容。例如，如果您修改scaffold/post.md中的Front-matter内容，那么每次新建一篇文章时都会包含这个修改。</p>
+<h3 id="source"><a href="#source" class="headerlink" title="source"></a>source</h3><p>资源文件夹是存放用户资源的地方。除 <code>_posts</code> 文件夹之外，开头命名为 <code>_</code> (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 <code>public</code> 文件夹，而其他文件会被拷贝过去。</p>
+<h3 id="themes"><a href="#themes" class="headerlink" title="themes"></a>themes</h3><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/themes">主题</a> 文件夹。Hexo 会根据主题来生成静态页面。</p>
+<h2 id="常用命令介绍"><a href="#常用命令介绍" class="headerlink" title="常用命令介绍"></a>常用命令介绍</h2><p>详细介绍请参考 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands">官网</a>。</p>
+<h3 id="hexo-generate"><a href="#hexo-generate" class="headerlink" title="hexo generate"></a>hexo generate</h3><p>生成网站的文件。</p>
+<p>简写 <code>hexo g</code></p>
+<h3 id="hexo-publish"><a href="#hexo-publish" class="headerlink" title="hexo publish"></a>hexo publish</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo publish [layout] &lt;filename&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>发表 Draft 草稿。</p>
+<h3 id="hexo-server"><a href="#hexo-server" class="headerlink" title="hexo server"></a>hexo server</h3><p>建立本地服务器，一般用来测试。</p>
+<p>如果做了修改，但是并没有起作用，可能需要先清理缓存<code>hexo clean</code>。</p>
+<p>简写<code>hexo s</code></p>
+<h3 id="hexo-deploy"><a href="#hexo-deploy" class="headerlink" title="hexo deploy"></a>hexo deploy</h3><p>发布网站到服务器。</p>
+<p>简写 <code>hexo d</code></p>
+<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><p>详细介绍请参考 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/writing">官网</a>。</p>
+<p>你可以执行下列命令来创建一篇新文章或者新的页面。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+
+<p>你可以在命令中指定文章的布局（layout），默认为 <code>post</code>，可以通过修改 <code>_config.yml</code> 中的 <code>default_layout</code> 参数来指定默认布局。</p>
+<p>Hexo 有三种默认布局：<code>post</code>、<code>page</code> 和 <code>draft</code>。在创建者三种不同类型的文件时，它们将会被保存到不同的路径；</p>
+<p><code>draft</code>需要通过命令<code>publish</code>发表。</p>
+<h2 id="部署网站"><a href="#部署网站" class="headerlink" title="部署网站"></a>部署网站</h2><p>打开根目录的<code>_config.yml</code>文件，在文件底部修改参数</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/username/username.github.io</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+
+<p>不要忘记修改 repo 属性的 username。</p>
+<p>然后输入命令<code>hexo deploy</code>或者<code>hexo d</code>，第一次可能需要输入你的 GitHub 用户名和密码。</p>
+<p>之后进入你的网站就可以看到效果了。</p>
+<h1 id="更改主题"><a href="#更改主题" class="headerlink" title="更改主题"></a>更改主题</h1><p>本文将介绍 <a target="_blank" rel="noopener" href="https://github.com/JoeyBling/hexo-theme-yilia-plus">hexo-theme-yilia-plus</a> 的安装。</p>
+<h3 id="1、安装"><a href="#1、安装" class="headerlink" title="1、安装"></a>1、安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd .&#x2F;themes&#x2F;</span><br><span class="line">git clone --depth&#x3D;1 https:&#x2F;&#x2F;github.com&#x2F;JoeyBling&#x2F;hexo-theme-yilia-plus.git .&#x2F;yilia-plus</span><br></pre></td></tr></table></figure>
+
+<h3 id="2、配置"><a href="#2、配置" class="headerlink" title="2、配置"></a>2、配置</h3><p>修改hexo根目录下的 <code>_config.yml</code> ➡️ <code>theme: yilia-plus</code></p>
+<h2 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h2><p>修改<code>./themes/yilia-plus/_config.yml</code></p>
+<p>首先在开头加上</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">author:</span> <span class="string">这里写你的名字</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>可能是这个 theme 的 bug，作者忘记在此处加上这两个属性导致网站主页不显示名字。</p>
+<h3 id="我的一些配置"><a href="#我的一些配置" class="headerlink" title="我的一些配置"></a>我的一些配置</h3><p>停用标签页标题的切换(好幼稚)</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">tab_title_change:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">left_tab_title:</span> <span class="string">&#x27;(つェ⊂) 我藏好了哦~ &#x27;</span></span><br><span class="line">  <span class="attr">return_tab_title:</span> <span class="string">&#x27;(*´∇｀*) 被你发现啦~ &#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>右上角的 Frok me on GitHub (太丑啦)</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">github:</span></span><br><span class="line">  <span class="comment"># (关闭请设置为false)</span></span><br><span class="line">  <span class="attr">url:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<p>图片都放在<code>./source/img</code>里面，并且修改配置中的图片路径</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 网站图标</span></span><br><span class="line"><span class="attr">favicon:</span> <span class="string">/img/favicon.ico</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 你的头像url</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="string">/img/head.png</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>基本就这样，如果有问题的话可以在下面评论 (如果我的评论系统已经搭建好的话 hhhh~)。</p>
 
     
-    <div class="page-reward">
-      <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">
-        <div class="tooltip tooltip-east">
-          <span class="tooltip-item">
-            赏
-          </span>
-          <span class="tooltip-content">
-            <span class="tooltip-text">
-              <span class="tooltip-inner">
-                <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i
-                    class="icon icon-quo-right"></i></p>
-                <div class="reward-box">
-                  
-                  <div class="reward-box-item">
-                    <img class="reward-img" src="/img/alipay.jpg">
-                    <span class="reward-type">支付宝</span>
-                  </div>
-                  
-                  
-                  <div class="reward-box-item">
-                    <img class="reward-img" src="/img/weixin.png">
-                    <span class="reward-type">微信</span>
-                  </div>
-                  
-                </div>
-              </span>
-            </span>
-          </span>
-        </div>
-      </a>
-    </div>
+
     
 
     
@@ -265,7 +314,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="http://kiancchen.github.io/2020/08/08/test-my-site/" title="test_my_site" target="_blank">http://kiancchen.github.io/2020/08/08/test-my-site/</a>
+          <a href="http://kiancchen.github.io/2020/09/02/How-to-build-this-site/" title="如何用 GitHub + Hexo + yilia-plus 搭建本站" target="_blank">http://kiancchen.github.io/2020/09/02/How-to-build-this-site/</a>
         </li>
         
         <li>
@@ -332,7 +381,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://kiancchen.github.io/2020/08/08/test-my-site/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://kiancchen.github.io/2020/09/02/How-to-build-this-site/" alt="微信分享二维码"> -->
     </div>
 </div>
 
